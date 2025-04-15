@@ -3,6 +3,7 @@ package br.com.fiap.FeudoMarket.config;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import br.com.fiap.FeudoMarket.model.Item;
 import br.com.fiap.FeudoMarket.model.Personagem;
@@ -13,6 +14,7 @@ import br.com.fiap.FeudoMarket.repository.ItemRepository;
 import br.com.fiap.FeudoMarket.repository.PersonagemRepository;
 import jakarta.annotation.PostConstruct;
 
+@Component
 public class DatabaseSeeder {
     
     @Autowired
