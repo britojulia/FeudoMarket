@@ -1,8 +1,8 @@
 package br.com.fiap.FeudoMarket.model;
 
 public enum RaridadeType {
-    comum,
-    raro,
-    épico,
-    lendário
+    COMUM,
+    RARO,
+    EPICO,
+    LENDARIO
 }
